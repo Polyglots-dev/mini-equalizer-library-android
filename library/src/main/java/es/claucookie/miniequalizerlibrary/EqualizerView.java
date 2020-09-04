@@ -55,7 +55,7 @@ public class EqualizerView extends LinearLayout {
                 0, 0);
 
         try {
-            foregroundColor = a.getInt(R.styleable.EqualizerView_foregroundColor, Color.BLACK);
+            foregroundColor = a.getInt(R.styleable.EqualizerView_equalizerForegroundColor, Color.BLACK);
             duration = a.getInt(R.styleable.EqualizerView_animDuration, 3000);
 
         } finally {
